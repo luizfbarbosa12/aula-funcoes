@@ -11,7 +11,7 @@
 // let nome1 = "Britney        Spears"
 // let nome2 = "     Adele"
 // let nome3 = prompt("Qual é o seu nome?")
-//             //parametro
+// //             //parametro
 // function formatar(nome) {
 //     // nome = nome.toLowerCase()
 //     // nome = nome.trim()
@@ -35,3 +35,36 @@
 // imprimeNome(nome1)
 // imprimeNome("André Luiz")
 // imprimeNome("Savio Ayres")
+
+
+//PARTE 2 DA AULA
+
+// const a = 1
+
+// function imprimeVariavel() {
+//     const b = 2
+//     console.log("console no escopo local", a, b)
+// }
+
+// imprimeVariavel()
+
+// console.log("console no escopo global:", a, b)
+
+let numero1 = 15
+let numero2 = 20
+
+function soma(num1, num2) {
+  let soma = num1 + num2
+    return soma
+}
+
+function multiplica(num1, num2) {
+    let multiplicacao = num1 * num2
+      return multiplicacao
+}
+
+// const resultado = soma(7, 4)
+
+console.log(soma(numero1, numero2))
+console.log(multiplica(numero1, numero2))
+
